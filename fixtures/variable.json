@@ -1,0 +1,13 @@
+{
+    "student": {
+        "username": "e2e-Tester-1",
+        "password": "Test123!",
+        "fullName": "Tester e2e",
+        "id": 20
+    },
+    "teacher": {
+        "username": "e2e-admin",
+        "password": "Test123!",
+        "id": 18
+    }
+}
