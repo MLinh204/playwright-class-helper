@@ -44,7 +44,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y mysql-client
-          mysql -h 127.0.0.1 -u root -p${{ secrets.DB_PASSWORD }} class_helper < backend/scripts/class_helper.sql
+          mysql -h 127.0.0.1 -u root -p${{ secrets.DB_PASSWORD }} class_helper < backend/script/class_helper.sql
 
       - name: Start backend
         run: node index.js &
